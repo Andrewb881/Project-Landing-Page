@@ -8,11 +8,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin: 0;
     padding: 0;
 }
-
-
 
 header {
     display: flex;
@@ -30,6 +29,7 @@ nav {
 .placeholder img {
     width: 330px;
     padding-bottom: 0;
+    
 
 }
 
@@ -94,6 +94,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-self: stretch;
 
 }
 
@@ -110,4 +111,21 @@ h3 {
     justify-content: center;
     gap: 60px;
 }
+ 
+.piclinks img {
+    width: 330px;
+    height: 220px;
+}
 
+.box1 {
+    background-color: #e5e7eb;
+    align-self: stretch;
+    
+}
+
+.quote {
+   width: 500px;
+   justify-content: center;
+   align-items: center;
+  
+}
